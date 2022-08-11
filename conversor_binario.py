@@ -17,12 +17,17 @@ def entero_a_binario(num_entero):
 # Pasar numero decimales a binario
 
 def decimal_a_cualquier_base(decimal, base, digitos):
+    # Debemos separar la parte entera y decimal, algo que podemos hacer con modf en Python.
     parte_fraccionaria, parte_entera = math.modf(decimal)
-    parte_entera = int(parte_entera)
 
-    # Guardar los modulos
+    parte_entera = int(parte_entera)
     cadena_parte_entera = ""
     cadena_parte_fraccionaria = ""
+
+    # Debemos seguir el procedimiento que hacemos manualmente:
+
+    # En el caso de la parte entera vamos dividiéndola entre la base y usando el 
+    # residuo para saber cuál digito irá en el resultado.
 
     while parte_entera > 0:
         residuo = parte_entera % base
@@ -34,7 +39,10 @@ def decimal_a_cualquier_base(decimal, base, digitos):
     cadena_parte_entera = cadena_parte_entera[::-1]
     sobrante = None
 
-    # Un do while
+    #Para la parte decimal o fraccionaria, vamos a ir multiplicando el valor decimal por 
+    # la base, usar la parte entera del resultado como dígito para el resultado, y asignando 
+    # la parte decimal a la parte fraccionaria original.
+
     while True:
         resultado = parte_fraccionaria*base
         parte_fraccionaria, sobrante = math.modf(resultado)
