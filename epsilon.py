@@ -1,4 +1,4 @@
-# Team @barros
+# Team @Barros @DeLaPeña
 # Curso : Metodos Numericos
 
 """
