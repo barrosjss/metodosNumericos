@@ -6,6 +6,7 @@ DESCRIPCION: Crear un código que permita la busqueda de la raiz de una ecuacion
 """
 
 import numpy as np
+# Instalar libreria https://es.acervolima.com/como-instalar-numpy-en-macos/
 
 #--------------------------------Ingreso------------------------------------
 
