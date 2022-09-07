@@ -2,7 +2,7 @@
 
 Despues de Terminar esta Unidad Usted estara en capacidad de identificar el método numérico mas adecuado para la determinación aproximada de las raíces de una ecuación no lineal.
 
-## MATERIAL DE ESTUDIO
+## TEMAS DE ESTUDIO
 
 - Método de bisección
 - Método de Newton
