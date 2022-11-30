@@ -14,6 +14,26 @@ export default function Home() {
           description='Crear un código que permita la busqueda de la raiz de una ecuacion no lineal por medio del método de secante.'
           route='/secante'
         />
+        <Card
+          title='Lagranje'
+          description='Código para taller de Interpolación de Lagrade con representación gráfica de puntos.'
+          route='/lagranje'
+        />
+        <Card
+          title='Biseccion'
+          description='Crear un código que permita la busqueda de la raiz de una ecuacion no lineal por medio del método de bisección.'
+          route=''
+        />
+        <Card
+          title='Newton Raphson'
+          description='Crear un código que permita la busqueda de la raiz de una ecuacion no lineal por medio del método de Newton Raphson.'
+          route=''
+        />
+        <Card
+          title='Newton Raphson'
+          description='Crear un código que permita la busqueda de la raiz de una ecuacion no lineal por medio del método de Newton Raphson.'
+          route=''
+        />
       </div>
     </div>
   )

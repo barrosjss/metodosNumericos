@@ -16,16 +16,15 @@ $ npm install react-bootstrap bootstrap
 ### API
 
 ```
-$ pip3 install numpy 
-$ curl https://files.pythonhosted.org/packages/3a/be/650f9c091ef71cb01d735775d554e068752d3ff63d7943b26316dc401749/numpy-1.21.2.zip > numpy.tar.gz
-$ tar -xzvf numpy.tar.gz
-$ cd numpy-1.21.2
+$ pip install Flask
 ```
 # Init
 
 En el directorio del proyecto, puede ejecutar:
 
 ### `npm start`
+### `python main.py`
 
 Ejecuta la aplicación en el modo de desarrollo.<br />
 Abrir [http://localhost:3000](http://localhost:3000) para verlo en el navegador.
+Abrir [http://127.0.0.1:5000](http://127.0.0.1:5000) para el servidor.
