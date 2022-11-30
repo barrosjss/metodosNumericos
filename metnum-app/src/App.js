@@ -1,13 +1,25 @@
+import React from 'react'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom"
 
+import Navbar from './components/Navbar.js'
 
-function App() {
+import Home from './pages/Home.js'
+import Secante from './pages/Secante.js'
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hola</h1>
-      </header>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/secante' element={<Secante />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
-
-export default App;

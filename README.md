@@ -9,8 +9,8 @@ Curso de Métodos Numéricos, que está dirigido a estudiantes de Ingeniería de
 ### APP
 
 ```
-$ npm install @mui/material @emotion/react @emotion/styled
 $ npm install react-router-dom
+$ npm install react-bootstrap bootstrap
 ```
 
 ### API
