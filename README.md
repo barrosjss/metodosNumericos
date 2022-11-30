@@ -21,7 +21,7 @@ $ curl https://files.pythonhosted.org/packages/3a/be/650f9c091ef71cb01d735775d55
 $ tar -xzvf numpy.tar.gz
 $ cd numpy-1.21.2
 ```
-
+# Init
 
 En el directorio del proyecto, puede ejecutar:
 
